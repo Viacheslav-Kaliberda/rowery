@@ -1,0 +1,394 @@
+#kon
+{
+  width:1519.200px;
+  height: 1916.900px;
+}
+
+
+body{
+
+  margin: 0;
+}
+.tlo
+{
+width: 100%;
+height: 100vh;
+background: url("./images/tlo.jpg") center no-repeat;
+background-size: cover;
+}
+x
+
+/*gora*/
+
+.text, a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #413e4b;
+    font-family: Helvetica;
+    margin: 10px;
+}
+/*шапка*/
+.nawigacja{
+    width: 100%;
+    position:absolute;
+    margin-top: 30px; 
+    text-transform: uppercase;
+    
+}
+#logo{
+  float: left;
+  margin: auto;
+  display: block;
+
+}
+.nav1{
+  float: left;
+  margin-left: 200px;
+  margin-right: 90px;
+    
+}
+.nav2{
+    float: right;
+    margin-right: 200px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+/*конец шапки*/
+
+
+/*эфекты для кнопок*/
+
+.nav_link{
+    margin-right: 50px;
+    transition: color .2s linear;
+    text-decoration: none;
+    color: #413e4b;
+    position: relative;
+
+
+}
+
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #64c29e;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1; 
+    transition: opacity .3s linear;
+}
+
+.nav_link:hover{
+    color:#64c29e;
+
+}
+.nav_link:hover:after{
+   opacity: 1;
+}
+
+ol {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    
+    text-align:center;
+  }
+  ol > li {
+    float:left;
+    background-color:none;
+  }
+  ol a {
+    display:block;
+    color:#000;
+    text-decoration:none;
+    padding:0 5px;
+  }
+  ol > li > a:hover {
+    color:#64c29e;
+    ;
+  }
+  
+  ol > li:hover {
+    background-color:none;
+  }
+  ol > li > ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:none;
+  }
+  ol > li:first-child {
+    margin-left:0;
+  }
+ 
+  
+  ol > li:hover > ul {
+    display:block;
+  }
+  ol {
+    background-color:none;
+  }
+  
+  ol > li > ul > li {
+    background-color:none;
+  }
+  
+  ol > li > ul > li:hover {
+    background-color:none;
+    color:#64c29e;
+  }
+  li,ul,ol:hover{
+    color:#64c29e;
+  }
+/*конец эфектов*/
+    /*тексты и их эфекты*/
+
+
+
+/*тексты*/
+.gorskie{
+  width:100%;
+  height: 465px;
+  background-color: black;
+}
+.miejskie{
+  float:left;
+  
+  width: 100%;
+  height: 354px;
+}
+.szosowe{
+  float: left;
+  background-color: blue;
+  width: 100%;
+  height: auto;
+}
+.gor
+{
+  color: rgba(24, 19, 19, 0.822);
+
+}
+.rama{
+  float: left;
+  width: 100%;
+  height: auto;
+  background-color: blueviolet;
+}
+h1{
+  color: red;
+  margin-top: 5px;
+}
+.o_stronie
+{
+  float: left;
+  width: 100%;
+  height: 153px;
+  background: url("./images/disclamer.png")center no-repeat;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+}
+#kontakt{
+  width: 100%;
+  height: auto;
+  background-color: brown;
+  float: left;
+}
+
+.gorskie_text{
+background-color: #d8d8d8;
+float:right;
+font-size: 17px;
+width: 814.3px;
+color: rgba(24, 19, 19, 0.822);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.miejskie_text{
+  float: left;
+  width: 620px;
+  margin-left: 5px;
+  margin-top: -10px;
+  font-size: 17px;
+  position: relative;
+  left: -300px;
+  color: rgb(98, 100, 102);
+  font-family:'Times New Roman', Times, serif;
+}
+.szosowe_text{
+float: left;
+font-size: 17px;
+width: 1064px;;
+margin-left: 10px;
+color: white;
+background-color: blue;
+font-family:'Courier New', Courier, monospace;
+}
+.rama_text{
+  float: left;
+  font-size: 17px;
+  margin-left: 10px;
+  width: 50%;
+  font-family:'Courier New', Courier, monospace;
+}
+.text_str{
+ float: left;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+/*картинки*/
+
+/*gorne*/
+#gor1{
+  width: auto; 
+  height:465px;
+  float:left;
+  background-size: cover;
+}
+ 
+ #gor2{
+ 
+  height:274px;
+  width:508px;
+  float:left;
+  background-size: cover;
+  
+ }
+
+#gor3{
+  float:left;
+  width: auto;
+  height: 274px;
+  background-size: cover;
+  
+}
+/*miekslie*/
+
+#m1{
+  float: left;
+  height:353px;
+  width: auto;
+
+}
+#m2{
+  float:left;
+  height: 203px;
+  width: auto;
+  position: relative;
+  top: 150px;
+ 
+}
+
+#m3{
+  float:left;
+  height: 204px; ;
+  position: relative;
+  top: -15px;
+  
+
+}
+#m4{
+  float: right;
+  position: relative;
+  top: -164px;
+  height: 353px;
+  width: 356.5px;
+}
+
+/*szosowe*/
+#s3{
+  float: right;
+  width: 400px;
+  height: 478.5px;
+}
+#s2{
+  float: left;
+  height: 310px;
+  width: 532px;
+}
+#s1{
+  float: left;
+  height: 310px;
+  width: 586.8px;
+
+}
+
+
+/*selekty inputy i wszystko z tym związane*/
+.pole1, .pole2{
+  
+  float:left;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+td, th 
+{ 
+  border: 1px solid black;  
+  height: 25px;
+}
+table
+{
+  font-size: 18px;
+  margin: 10px 0px 0px 5px;
+}
+
+
+   .pole1, .pole2{
+  font-size: 17px;
+}
+select, input{
+  
+  font-size: 14px;
+}
+input{
+  margin-top: 5px;
+}
+.strzal {
+  position: fixed;
+  right: 65px;
+  bottom: 45px;
+ }
+#strzal{
+  width:50px;
+  height:50px; 
+}
+a#kon, h2{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+#mail{
+  background-color:blue; 
+  width: auto; 
+  color: white;
+  float: right;
+  margin-top: 3px;
+}
+#adr{
+  float: left;
+  font-size: 20px;
+  margin-left: 25%;
+}
+#cv
+{
+  margin:20px 50px 0px 80px;
+  float: left;
+  color: #000;
+  border: white 1px solid;
+}
+#lin{
+  float: right;
+  color: #000;
+  border: white 1px solid;
+  margin:3px 150px 0px 0px ;
+}
+
+
+/*margim: top right botton left*/
