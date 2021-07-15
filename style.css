@@ -1,7 +1,7 @@
 #kon
 {
   width:1519.200px;
-  height: 1916.900px;
+  height:2036.300px;
 }
 
 
@@ -28,7 +28,7 @@ x
     font-family: Helvetica;
     margin: 10px;
 }
-/*шапка*/
+
 .nawigacja{
     width: 100%;
     position:absolute;
@@ -54,10 +54,10 @@ x
     margin-left: 45px;
     margin-top: 15px;
 }
-/*конец шапки*/
 
 
-/*эфекты для кнопок*/
+
+/*efekts to button*/
 
 .nav_link{
     margin-right: 50px;
@@ -145,12 +145,11 @@ ol {
   li,ul,ol:hover{
     color:#64c29e;
   }
-/*конец эфектов*/
-    /*тексты и их эфекты*/
+
+  
 
 
-
-/*тексты*/
+/*text*/
 .gorskie{
   width:100%;
   height: 465px;
@@ -183,6 +182,10 @@ h1{
   color: red;
   margin-top: 5px;
 }
+#stro{
+  color: red;
+    text-decoration: underline;
+}
 .o_stronie
 {
   float: left;
@@ -199,6 +202,7 @@ h1{
   background-color: brown;
   float: left;
 }
+
 
 .gorskie_text{
 background-color: #d8d8d8;
@@ -242,7 +246,7 @@ font-family:'Courier New', Courier, monospace;
   height: auto;
   text-align: center;
 }
-/*картинки*/
+/*images*/
 
 /*gorne*/
 #gor1{
